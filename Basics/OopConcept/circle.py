@@ -8,7 +8,7 @@ class Circle:
         return round(math.pi * self.radius ** 2, 2)
 
 # run this program by creating object and calling method and classes
-# import circle from Circle
-# circle_1 = circle(42)
+# from circle import Circle
+# circle_1 = Circle(42)
 # circle_1.radius
 # circle_1.calculate_area()
