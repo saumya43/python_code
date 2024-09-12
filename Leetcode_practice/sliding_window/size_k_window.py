@@ -8,7 +8,7 @@ def window_k(nums, k):
             l = l+1
         if nums[r] in Map:
             return True
-        M ap.add(nums[r])
+        Map.add(nums[r])
 
     return False
 
