@@ -1,0 +1,35 @@
+app_name: MyAwesomeApp
+cache:
+  host: cache.example.com
+  port: 6379
+  type: redis
+database:
+  database_version: '2.9'
+  host: db.example.com
+  name: myapp_db
+  password: REDACTED
+  port: 5432
+  user: admin
+enable_compression: true
+features:
+  beta_analytics: false
+  new_user_experience: true
+logging:
+  backups: 3
+  file: /var/log/myapp.log
+  level: INFO
+  max_size: 100MB
+max_connections: 100
+server:
+  debug_mode: false
+  host: 0.0.0.0
+  port: 8080
+services:
+- api_key: REDACTED
+  name: EmailService
+  url: https://email.example.com/api/v2
+- api_key: REDACTED
+  name: PaymentGateway
+  url: https://payments.example.com/v3
+timeout: 30
+version: 1.5.2

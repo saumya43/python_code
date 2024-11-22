@@ -1,0 +1,41 @@
+File Reading and Writing:
+Question: Write a Python function that reads a text file, counts the occurrence of each word (case-insensitive), and writes the results to a new file named 'word_count.txt' in the format "word: count" (one per line), sorted by count in descending order.
+File Compression:
+Question: Create a Python script that compresses all .txt files in a given directory using gzip compression. The compressed files should have the same name but with a .gz extension. The script should also print out the compression ratio for each file.
+Base64 Encoding:
+Question: Write a function that takes a file path as input, reads the file's content, encodes it to base64, and then writes the encoded content to a new file with '_encoded' appended to the original filename. The function should return the path of the new encoded file.
+Combining Concepts:
+Question: Develop a Python script that does the following:
+
+Reads a text file
+Compresses its content using gzipFile Reading and Writing:
+Question: Write a Python function that reads a text file, counts the occurrence of each word (case-insensitive), and writes the results to a new file named 'word_count.txt' in the format "word: count" (one per line), sorted by count in descending order.
+File Compression:
+Question: Create a Python script that compresses all .txt files in a given directory using gzip compression. The compressed files should have the same name but with a .gz extension. The script should also print out the compression ratio for each file.
+Base64 Encoding:
+Question: Write a function that takes a file path as input, reads the file's content, encodes it to base64, and then writes the encoded content to a new file with '_encoded' appended to the original filename. The function should return the path of the new encoded file.
+Combining Concepts:
+Question: Develop a Python script that does the following:
+
+Reads a text file
+Compresses its content using gzip
+Encodes the compressed content to base64
+Writes the encoded content to a new file
+Then reverses the process (decodes, decompresses, and writes to a new file)
+Finally, compares the original file with the final output file to ensure they are identical
+
+
+Error Handling:
+Question: Modify your solution to question 4 to include proper error handling. The script should gracefully handle scenarios such as file not found, permission errors, and incorrect file formats. It should provide meaningful error messages for each type of exception.
+Large File Handling:
+Question: Write a Python function that can efficiently process large files (potentially larger than available RAM). The function should read the file in chunks, compress each chunk using gzip, encode it to base64, and write it to a new file. Ensure that the function uses a reasonable amount of memory regardless of the input file size.
+Encodes the compressed content to base64
+Writes the encoded content to a new file
+Then reverses the process (decodes, decompresses, and writes to a new file)
+Finally, compares the original file with the final output file to ensure they are identical
+
+
+Error Handling:
+Question: Modify your solution to question 4 to include proper error handling. The script should gracefully handle scenarios such as file not found, permission errors, and incorrect file formats. It should provide meaningful error messages for each type of exception.
+Large File Handling:
+Question: Write a Python function that can efficiently process large files (potentially larger than available RAM). The function should read the file in chunks, compress each chunk using gzip, encode it to base64, and write it to a new file. Ensure that the function uses a reasonable amount of memory regardless of the input file size.

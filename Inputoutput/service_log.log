@@ -1,0 +1,15 @@
+192.168.1.100 - - [05/Nov/2024:08:01:23 +0000] "GET /api/users HTTP/1.1" 200 0.145 "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" upstream_addr:10.0.0.15:8080 upstream_response_time:0.132
+192.168.1.101 - - [05/Nov/2024:08:01:23 +0000] "POST /api/orders HTTP/1.1" 201 0.232 "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X)" upstream_addr:10.0.0.16:8080 upstream_response_time:0.215
+192.168.1.102 - - [05/Nov/2024:08:01:24 +0000] "GET /api/products HTTP/1.1" 200 0.089 "PostmanRuntime/7.32.3" upstream_addr:10.0.0.15:8080 upstream_response_time:0.076
+192.168.1.103 - - [05/Nov/2024:08:01:24 +0000] "GET /api/users/profile HTTP/1.1" 403 0.067 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)" upstream_addr:10.0.0.17:8080 upstream_response_time:0.054
+192.168.1.104 - - [05/Nov/2024:08:01:25 +0000] "PUT /api/users/settings HTTP/1.1" 200 0.178 "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" upstream_addr:10.0.0.16:8080 upstream_response_time:0.165
+192.168.1.105 - - [05/Nov/2024:08:01:25 +0000] "GET /api/products/featured HTTP/1.1" 504 10.043 "Mozilla/5.0 (Linux; Android 13)" upstream_addr:10.0.0.15:8080 upstream_response_time:10.032
+192.168.1.106 - - [05/Nov/2024:08:01:26 +0000] "POST /api/auth/login HTTP/1.1" 401 0.098 "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X)" upstream_addr:10.0.0.17:8080 upstream_response_time:0.087
+192.168.1.107 - - [05/Nov/2024:08:01:26 +0000] "GET /health HTTP/1.1" 200 0.021 "ELB-HealthChecker/2.0" upstream_addr:10.0.0.15:8080 upstream_response_time:0.012
+192.168.1.108 - - [05/Nov/2024:08:01:27 +0000] "GET /api/orders/history HTTP/1.1" 200 0.156 "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" upstream_addr:10.0.0.16:8080 upstream_response_time:0.143
+192.168.1.109 - - [05/Nov/2024:08:01:27 +0000] "DELETE /api/cart/items HTTP/1.1" 204 0.087 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)" upstream_addr:10.0.0.17:8080 upstream_response_time:0.076
+192.168.1.110 - - [05/Nov/2024:08:01:28 +0000] "GET /api/products/search HTTP/1.1" 500 0.234 "PostmanRuntime/7.32.3" upstream_addr:10.0.0.15:8080 upstream_response_time:0.223
+192.168.1.111 - - [05/Nov/2024:08:01:28 +0000] "POST /api/feedback HTTP/1.1" 429 0.045 "Mozilla/5.0 (Linux; Android 13)" upstream_addr:10.0.0.16:8080 upstream_response_time:0.034
+192.168.1.112 - - [05/Nov/2024:08:01:29 +0000] "GET /metrics HTTP/1.1" 200 0.023 "Prometheus/2.42.0" upstream_addr:10.0.0.15:8080 upstream_response_time:0.012
+192.168.1.113 - - [05/Nov/2024:08:01:29 +0000] "GET /api/products/1234 HTTP/1.1" 404 0.078 "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" upstream_addr:10.0.0.17:8080 upstream_response_time:0.067
+192.168.1.114 - - [05/Nov/2024:08:01:30 +0000] "POST /api/orders/bulk HTTP/1.1" 413 0.056 "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X)" upstream_addr:10.0.0.16:8080 upstream_response_time:0.045
